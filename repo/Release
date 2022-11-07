@@ -1,0 +1,8 @@
+Origin: Spinnenkop's Legacy iOS
+Label: Spinnenkop's iRepo
+Suite: stable
+Version: 1.0
+Codename: iRepo
+Architectures: iphoneos-arm
+Components: main
+Description: Spinnenkop's iRepo, for all your nostalgic needs.

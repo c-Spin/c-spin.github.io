@@ -70,39 +70,66 @@ Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
 Name: iFile
 
-Package: com.cspin.ifile
-Version: 2.0.1-1
+Package: com.filippobiga.springtomize2-icons
+Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: cSpin <c@spinnenkop.nl>
-Installed-Size: 18780
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: Files/iFile/com.cspin.ifile_2.0.1-1_iphoneos-arm.deb
-Size: 8779136
-MD5sum: 7a517247988067553f88b9809f93cfac
-SHA1: c5e843dbff581b5c9c695d3d565d11f886a626ac
-SHA256: 765de568427737659281576330f776a346792eb13c7f2cbe1c147d9c76f3522c
-Section: File Managers
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Name: iFile
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 88
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: Files/Springtomize 2/springtomize2-icons_1.0-1.deb
+Size: 68014
+MD5sum: d59a046a55fc34d7baee571ff99f7bee
+SHA1: d9bb1599c6065237c3e211996386b588939d149d
+SHA256: 96154dce09c2d93ff1d0ef10e3bdcddb3f01304c1a25b0f2eadfb416d68bf52f
+Section: Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Settings Icons for Springtomize2
+Tag: role::developer
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize2-Icons
+Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.cspin.ifile
-Version: 2.2.0-1
+Package: com.filippobiga.springtomize2-localizations
+Version: 1.0.1
 Architecture: iphoneos-arm
-Maintainer: cSpin <c@spinnenkop.nl>
-Installed-Size: 20224
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: Files/iFile/com.cspin.ifile_2.2.0-1_iphoneos-arm.deb
-Size: 9752036
-MD5sum: 1eb6741b7bffda390bdfbf022a3819fe
-SHA1: aac837aa93375f20d7ed5a176c71cfe9cfc3bbef
-SHA256: f51fccdd3913f206a2a2528c5150a6f9082641d83dec16061f032debf267903d
-Section: File Managers
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Name: iFile
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 222
+Depends: firmware (>= 5.0)
+Replaces: com.filippobiga.springtomize2 (<< 1.3-3)
+Filename: Files/Springtomize 2/springtomize2-localizations_1.0.1.deb
+Size: 56800
+MD5sum: f2392d0ec872bbf2f797f83ea2b6e076
+SHA1: df7f85514ce0501745ba647d9345d93e58a9f3b9
+SHA256: c48dd5d2a855b1df70cebadabdefb1eecd2c21875a5d802b0af3f0081270dd9d
+Section: Addons
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: Localizations for Springtomize2
+Tag: role::developer
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize2-Localizations
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.hackyouriphone.springtomize2
+Version: 1.4.5-1
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: Files/Springtomize 2/com.hackyouriphone.springtomize2_1.4.5-1_iphoneos-arm.deb
+Size: 251858
+MD5sum: 8de4597a950d91074868e86e7d2c789a
+SHA1: 78f0fc51399e449ab37bf0d48531e50a8c9fa30a
+SHA256: c5b8ab3a990107a1a95676f5d71a65a09f30a16369a1394ebbc61d8dc61a7c1f
+Section: HYI - Tweaks
+Description: SpringBoard, the way you want it. All over again.
+Author: FilippoBiga <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=springtomize2
+Name: Springtomize 2 - iOS 5 & 6
 

@@ -77,7 +77,7 @@ Maintainer: cSpin <c@spinnenkop.nl>
 Installed-Size: 706
 Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader
 Conflicts: com.filippobiga.springtomize
-Filename: Files/Springtomize 2/com.cspin.springtomize2_1.1-1_iphoneos-arm.deb
+Filename: Files/Springtomize/com.cspin.springtomize2_1.1-1_iphoneos-arm.deb
 Size: 307946
 MD5sum: 3d33122366e425c829a46ad56fae7c4c
 SHA1: 600b711ab68f72185a9bc9349ddd981cfc17dda3

@@ -90,3 +90,20 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomi
 Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize 2  - iOS 5-6
 
+Package: com.cspin.springtomize2
+Version: 1.4.5-1
+Architecture: iphoneos-arm
+Maintainer: cSpin <c@spinnenkop.nl>
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: Files/Springtomize/com.cspin.springtomize2_1.4.5-1_iphoneos-arm.deb
+Size: 251866
+MD5sum: 40558676033a0a6cb12344a81ba3680f
+SHA1: 0d6fd2c244cda77cb08adad42e58ea92bd0a093e
+SHA256: 4a42938a4922cde8ea481c106a28b5fddf8187391f845b6fc594d908c7030b73
+Section: Customization
+Description: SpringBoard, the way you want it. All over again.
+Author: FilippoBiga <temp@spinnenkop.nl>
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Name: Springtomize 2 - iOS 5 & 6
+

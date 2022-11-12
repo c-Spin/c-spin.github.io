@@ -90,6 +90,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomi
 Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize 2  - iOS 5-6
 
+Package: com.iphonecake.appcake2.ios6
+Version: 4.59
+Architecture: iphoneos-arm
+Maintainer: hotsjf <iphonecake@gmail.com>
+Pre-Depends: firmware (>= 6.0) | firware (<= 7.0)
+Filename: Files/Appcake/com.iphonecake.appcake2.ios6_4.59_iphoneos-arm.deb
+Size: 4595808
+MD5sum: 252c83feff126e6696e5fd7dce87580c
+SHA1: 4ef64c8287a625091f305006273f61cdac3b6b17
+SHA256: 2f1ded9c9dd46b6b84af9953f0cc7edd833a619c7f2f56efd715dfbf94c6f086
+Section: Utilities
+Description: **All NEW AppCake 4.0! Clean UI with enhanced Settings, download cracked apps from the largest Cracked Store. Come with iTunes Sync, Metadata Removal, Update check, AirDrop Sharing and more. *** Require AppSync to be installed ***
+Author: hotsjf <iphonecake@gmail.com>
+Depiction: http://iphonecake.com/mobileapp/depiction/ios6.html
+Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
+Name: AppCake for iOS6
+Website: http://iphonecake.com/forum/
+
 Package: kloader
 Version: 1.0
 Architecture: iphoneos-arm

@@ -90,20 +90,80 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomi
 Icon: file:///Applications/springtomizeapp.app/Icon.png
 Name: Springtomize 2  - iOS 5-6
 
-Package: com.cspin.springtomize2
-Version: 1.4.5-1
+Package: kloader
+Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: cSpin <c@spinnenkop.nl>
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
-Conflicts: com.filippobiga.springtomize
-Filename: Files/Springtomize/com.cspin.springtomize2_1.4.5-1_iphoneos-arm.deb
-Size: 251866
-MD5sum: 40558676033a0a6cb12344a81ba3680f
-SHA1: 0d6fd2c244cda77cb08adad42e58ea92bd0a093e
-SHA256: 4a42938a4922cde8ea481c106a28b5fddf8187391f845b6fc594d908c7030b73
-Section: Customization
-Description: SpringBoard, the way you want it. All over again.
-Author: FilippoBiga <temp@spinnenkop.nl>
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
-Name: Springtomize 2 - iOS 5 & 6
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: Files/kDFUapp/kloader-1.0.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
+
+Package: libcrippy-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: Files/kDFUapp/libcrippy-1.0.0.deb
+Size: 15677
+MD5sum: dd1e736bba0ad1bf5524fc10a137add4
+SHA1: 459e70fb57abbad08ee7ac62255375901ddeeaba
+SHA256: 20e154581408dafd0e12e7cd841d2520e1d096981829452301d11ef696b4efd9
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy-1.0.0
+
+Package: libpartialzip-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: Files/kDFUapp/libpartialzip-1.0.0.deb
+Size: 6686
+MD5sum: 3628b4a3d21f7f168f281511e4ef17a1
+SHA1: 405514edddd91ea9101294ec49048fb4bd83d16d
+SHA256: 1582f0c97cdda3bb01d3f64356695c8dc3731ed06bf4ddc11b5c9daa027a8e09
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip-1.0.0
+
+Package: org.tihmstar.kDFUApp
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
+Filename: Files/kDFUapp/org.tihmstar.kDFUApp-1.0.2.deb
+Size: 80458
+MD5sum: d2fb236c946705c835a08f844527f0c1
+SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
+SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode
+ kDFUApp is an easy way to get into kDFU mode
+ simply activate all switches and press the button
+ <br>
+ <br>Currently compatible with:
+ <br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
+ <br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
+ <br>
+ <br>NOT COMPATIBLE WITH 64BIT DEVICES!
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
 

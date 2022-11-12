@@ -110,38 +110,6 @@ Description: Don't install if you don't know what that is
 Author: winocm, xerub
 Name: kloader
 
-Package: libcrippy-1.0.0
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: tihmstar
-Depends: firmware (>= 6.0)
-Filename: Files/kDFUapp/libcrippy-1.0.0.deb
-Size: 15677
-MD5sum: dd1e736bba0ad1bf5524fc10a137add4
-SHA1: 459e70fb57abbad08ee7ac62255375901ddeeaba
-SHA256: 20e154581408dafd0e12e7cd841d2520e1d096981829452301d11ef696b4efd9
-Section: Development
-Priority: optional
-Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
-Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
-Name: libcrippy-1.0.0
-
-Package: libpartialzip-1.0.0
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: tihmstar
-Depends: firmware (>= 6.0), libcrippy-1.0.0
-Filename: Files/kDFUapp/libpartialzip-1.0.0.deb
-Size: 6686
-MD5sum: 3628b4a3d21f7f168f281511e4ef17a1
-SHA1: 405514edddd91ea9101294ec49048fb4bd83d16d
-SHA256: 1582f0c97cdda3bb01d3f64356695c8dc3731ed06bf4ddc11b5c9daa027a8e09
-Section: Development
-Priority: optional
-Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
-Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
-Name: libpartialzip-1.0.0
-
 Package: org.tihmstar.kDFUApp
 Version: 1.0.2
 Architecture: iphoneos-arm
